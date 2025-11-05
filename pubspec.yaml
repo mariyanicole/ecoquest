@@ -1,0 +1,48 @@
+name: ecoquest
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Icons
+  phosphor_flutter: any
+
+  # Charts
+  fl_chart: ^1.1.1
+  
+  # State Management
+  provider: ^6.1.1
+
+  # For local storage
+  shared_preferences: ^2.2.2
+
+  # For API calls
+  http: ^1.1.2
+
+  # For playing audio
+  audioplayers: ^6.5.1
+  
+  # For SVG rendering
+  flutter_svg: ^2.0.9
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  google_maps_flutter: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
